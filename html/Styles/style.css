@@ -1,0 +1,62 @@
+@font-face {
+    font-family: Spurs;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../Fonts/nbaspurs.ttf');
+}
+
+header {
+    width: 1024px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer {
+    width: 1024px;
+    margin: 0 auto;
+    text-align: center;   
+}
+
+body {
+    background: black;
+    font-family: Calibri;
+    color: grey;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+p {
+    padding: 10px;
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.avisoImportante {
+    font-family: Spurs;
+    color:white;
+}
+
+.title {
+    font-family: Spurs;
+    color: white;
+}
+
+.playerNumber {
+    font-family: Spurs;
+    font-size: 14px;
+    color: white;
+}
+
+.playerImage {
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
