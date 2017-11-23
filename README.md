@@ -27,3 +27,7 @@ Una vez el servidor se ha creado y esta en funcionamiento es hora de realizar la
 Para instalar Nginx basta con utilizar el comando:
 
 `sudo apt-get install nginx`
+
+**IMPORTANTE**: Una vez que hemos instalado Nginx es necesario **abrir** el puerto **80** (puerto por defecto del protocolo HHTTP) en nuestro servidor de AWS para que Nginx trabaje de forma correcta.
+
+Ahora ya tenemos nuestro servidor en marcha y Nginx 'corriendo' en él por lo tanto es hora de desplegar nuestra web **estática**
