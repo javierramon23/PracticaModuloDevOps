@@ -1,0 +1,7 @@
+#Fichero gitignore del repositorio:
+
+#Dependencias:
+/node-modules
+
+#Certificados:
+*.pem
