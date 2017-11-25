@@ -31,6 +31,7 @@ a {
 
 p {
     padding: 10px;
+    text-align: justify;
 }
 
 .container {
@@ -55,8 +56,18 @@ p {
 }
 
 .playerImage {
-    padding: 5px;
+    padding: 10px;
     border: 2px solid white;
     border-radius: 10px;
+}
+
+.playerList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.playerPic {
+    padding: 15px;
 }
 
